@@ -27,7 +27,22 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
   ],
+
+  googleFonts: {
+    families: {
+      'IBM Plex Sans': {
+        wght: [400, 500],
+      },
+      'IBM Plex Serif': {
+        wght: [400, 500],
+      },
+      'Great Vibes': {
+        wght: [400, 500],
+      },
+    },
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
