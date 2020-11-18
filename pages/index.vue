@@ -4,7 +4,7 @@
     <div class="container mx-auto p-4">
       <div class="flex flex-wrap items-center max-w-4xl mx-auto mt-5 md:mt-16">
         <div class="w-full md:w-1/2 text-center">
-          <div class="text-red-600 font-medium font-serif mb-3">
+          <div class="text-red-700 font-medium font-serif mb-3">
             SUNDAY, FEB 7, 2021
           </div>
           <svg
@@ -34,9 +34,49 @@
       </div>
 
       <div
-        class="text-center font-medium font-serif uppercase tracking-wider text-xl mt-16 mb-20"
+        class="text-center font-medium font-serif uppercase tracking-wider text-xl mt-16 mb-12"
       >
         We invite you to <br />celebrate our wedding!
+      </div>
+      <div class="flex max-w-xl mx-auto">
+        <div class="w-1/2 text-right pr-6 md:pr-16 border-r border-gray-400">
+          <div class="font-medium tracking-wider">MARRIAGE</div>
+          <div class="font-serif text-red-700 font-medium text-2xl mt-4 mb-2">
+            SUNDAY<br />
+            FEB 7, 2021
+          </div>
+          <div class="font-serif font-medium tracking-wider">
+            10:00 AM ONWARDS
+          </div>
+        </div>
+        <div class="w-1/2 text-left pl-6 md:pl-16">
+          <div class="font-medium tracking-wider">RECEPTION</div>
+          <div class="font-serif text-red-700 font-medium text-2xl mt-4 mb-2">
+            MONDAY<br />
+            FEB 8, 2021
+          </div>
+          <div class="font-serif font-medium tracking-wider">
+            10:00 AM ONWARDS
+          </div>
+        </div>
+      </div>
+      <div class="mt-12 text-center">
+        <div class="font-medium tracking-wider mb-4">VENUE</div>
+        <div class="font-serif font-medium tracking-wider mb-4">
+          KANTESHIR, KESINGA, ODISHA, 766012
+        </div>
+        <div class="max-w-3xl mx-auto">
+          <iframe
+            class="rounded-md"
+            width="100%"
+            height="400"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=20.2163428,83.2478984+(Bishi's)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
       </div>
     </div>
   </div>
