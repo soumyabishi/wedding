@@ -38,9 +38,6 @@ export default {
       'IBM Plex Serif': {
         wght: [400, 500],
       },
-      'Great Vibes': {
-        wght: [400, 500],
-      },
     },
   },
 

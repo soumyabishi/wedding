@@ -12,8 +12,10 @@ module.exports = {
       fontFamily: {
         sans: ['IBM Plex Sans', ...defaultTheme.fontFamily.sans],
         serif: ['IBM Plex Serif'],
-        wedding: ['Great Vibes'],
       },
+      backgroundImage: (theme) => ({
+        'hero-pattern': "url('~@/assets/images/lights.png')",
+      }),
     },
   },
 }
