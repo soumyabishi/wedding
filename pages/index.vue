@@ -8,7 +8,7 @@
             SUNDAY, FEB 7, 2021
           </div>
           <svg
-            class="w-56 md:w-auto md:max-w-md mx-auto"
+            class="w-56 md:w-auto md:max-w-sm mx-auto"
             height="h-auto"
             viewBox="0 0 429 350"
             fill="none"
@@ -26,9 +26,7 @@
             />
           </svg>
 
-          <div class="font-medium text-xl mt-8 uppercase tracking-wider">
-            We’re getting married!
-          </div>
+          <div class="text-2xl mt-8">We’re getting married!</div>
         </div>
         <div class="w-full md:w-1/2 mt-10 md:mt-0">
           <img
@@ -49,13 +47,11 @@
               <span class="highlight">MARRIAGE</span>
             </span>
           </div>
-          <div class="font-sans text-red-700 font-medium text-3xl mt-4 mb-2">
+          <div class="font-sans text-red-700 font-semibold text-3xl mt-4 mb-2">
             SUNDAY<br />
             FEB 7, 2021
           </div>
-          <div class="font-sans font-medium tracking-wider">
-            10:00 AM ONWARDS
-          </div>
+          <div class="font-sans font-medium">10:00 AM Onwards</div>
         </div>
         <div class="w-1/2 text-left pl-6 md:pl-16">
           <div class="font-medium tracking-wider">
@@ -63,13 +59,11 @@
               <span class="highlight">RECEPTION</span>
             </span>
           </div>
-          <div class="font-sans text-red-700 font-medium text-3xl mt-4 mb-2">
+          <div class="font-sans text-red-700 font-semibold text-3xl mt-4 mb-2">
             MONDAY<br />
             FEB 8, 2021
           </div>
-          <div class="font-sans font-medium tracking-wider">
-            10:00 AM ONWARDS
-          </div>
+          <div class="font-sans font-medium">10:00 AM Onwards</div>
         </div>
       </div>
       <div class="mt-12 text-center">
@@ -78,9 +72,7 @@
             <span class="highlight">VENUE</span>
           </span>
         </div>
-        <div class="font-medium tracking-wider mb-4">
-          KANTESHIR, KESINGA, ODISHA, 766012
-        </div>
+        <div class="font-medium mb-4">Kanteshir, Kesinga, Odisha, 766012</div>
         <div class="max-w-3xl mx-auto">
           <iframe
             class="rounded-md"
