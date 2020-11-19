@@ -28,7 +28,12 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    '@nuxtjs/imagemin',
   ],
+
+  imagemin: {
+    /* module options */
+  },
 
   googleFonts: {
     families: {

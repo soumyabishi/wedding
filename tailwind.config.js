@@ -16,7 +16,7 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         'hero-pattern': "url('~@/assets/images/lights.png')",
-        'footer-pattern': "url('~@/assets/images/footer.png')",
+        'footer-pattern': "url('~@/assets/images/footer.jpg')",
       }),
     },
   },

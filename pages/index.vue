@@ -30,7 +30,7 @@
         </div>
         <div class="w-full md:w-1/2 mt-10 md:mt-0">
           <img
-            src="@/assets/images/photo.png"
+            src="@/assets/images/photo.jpg"
             class="w-full md:w-auto md:max-w-xl mx-auto"
           />
         </div>
