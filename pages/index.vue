@@ -87,9 +87,58 @@
         </div>
       </div>
     </div>
+
+    <img
+      src="@/assets/images/footer-separator.svg"
+      class="w-64 mx-auto mt-12"
+    />
+    <div class="max-w-md flex mx-auto mt-16">
+      <div
+        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+      >
+        <img
+          class="w-16 mx-auto"
+          src="https://media.giphy.com/media/QTlmH8hEoVoi83mdJC/giphy.gif"
+        />
+      </div>
+      <div
+        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+      >
+        <img
+          class="w-16 mx-auto"
+          src="https://media.giphy.com/media/ZdNlmHHr7czumQPvNE/giphy.gif"
+        />
+      </div>
+      <div
+        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+      >
+        <img
+          class="w-16 mx-auto"
+          src="https://media.giphy.com/media/PmuLLvty3SDOIaEh77/giphy.gif"
+        />
+      </div>
+      <div
+        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+      >
+        <img
+          class="w-16 mx-auto"
+          src="https://media.giphy.com/media/MAcTx2rdS1qTprIScT/giphy.gif"
+        />
+      </div>
+      <div
+        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+      >
+        <img
+          class="w-16 mx-auto"
+          src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
+        />
+      </div>
+    </div>
+
     <div class="mt-16">
       <img src="@/assets/images/footer-logo.svg" class="mx-auto w-32" />
     </div>
+
     <div class="bg-footer-pattern w-full h-20 footer-pattern bg-repeat-x"></div>
   </div>
 </template>
