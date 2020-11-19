@@ -82,7 +82,9 @@
             <span class="highlight">VENUE</span>
           </span>
         </div>
-        <div class="font-medium mb-4">Kanteshir, Kesinga, Odisha, 766012</div>
+        <div class="font-medium mb-4" translate="no">
+          Kanteshir, Kesinga, Odisha, 766012
+        </div>
         <div class="max-w-3xl mx-auto">
           <iframe
             class="rounded-md"
