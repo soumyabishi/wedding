@@ -4,10 +4,16 @@
     <div class="container mx-auto p-4">
       <div class="flex flex-wrap items-center max-w-5xl mx-auto mt-5 md:mt-6">
         <div class="w-full md:w-1/2 text-center">
-          <div class="text-red-700 text-md md:text-xl font-medium mb-3">
+          <div
+            class="text-red-700 text-md md:text-xl font-medium mb-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             SUNDAY, FEB 7, 2021
           </div>
           <svg
+            data-aos="fade-up"
+            data-aos-delay="500"
             class="w-56 md:w-auto md:max-w-sm mx-auto"
             height="h-auto"
             viewBox="0 0 429 350"
@@ -26,10 +32,18 @@
             />
           </svg>
 
-          <div class="text-xl md:text-2xl mt-8">We’re getting married!</div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="400"
+            class="text-xl md:text-2xl mt-8"
+          >
+            We’re getting married!
+          </div>
         </div>
         <div class="w-full md:w-1/2 mt-10 md:mt-0">
           <img
+            data-aos="fade-up"
+            data-aos-delay="400"
             src="@/assets/images/photo.jpg"
             class="w-full md:w-auto md:max-w-xl mx-auto"
           />
@@ -37,55 +51,90 @@
       </div>
 
       <div
-        class="text-center font-medium font-display text-3xl md:text-5xl mt-16 mb-12"
+        class="text-center font-medium font-display text-3xl md:text-5xl mt-10 md:mt-16 mb-12"
+        data-aos="fade-up"
+        data-aos-duration="400"
       >
         We invite you to <br />celebrate our wedding!
         <img src="@/assets/images/separator.svg" class="w-64 mx-auto mt-12" />
       </div>
       <div class="flex max-w-xl mx-auto">
         <div class="w-1/2 text-right pr-6 md:pr-16 border-r border-gray-400">
-          <div class="font-medium text-sm md:text-base tracking-widest">
+          <div
+            class="font-medium text-sm md:text-base tracking-widest"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
             <span class="highlight-container">
               <span class="highlight">MARRIAGE</span>
             </span>
           </div>
           <div
             class="font-sans text-red-700 font-semibold text-xl md:text-3xl mt-4 mb-2"
+            data-aos="fade-right"
+            data-aos-duration="400"
           >
             SUNDAY<br />
             FEB 7, 2021
           </div>
-          <div class="font-sans text-sm md:text-base font-medium">
+          <div
+            class="font-sans text-sm md:text-base font-medium"
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
             10:00 AM Onwards
           </div>
         </div>
         <div class="w-1/2 text-left pl-6 md:pl-16">
-          <div class="font-medium text-sm md:text-base tracking-wider">
+          <div
+            class="font-medium text-sm md:text-base tracking-wider"
+            data-aos="fade-left"
+            data-aos-duration="500"
+          >
             <span class="highlight-container">
               <span class="highlight">RECEPTION</span>
             </span>
           </div>
           <div
             class="font-sans text-red-700 font-semibold text-xl md:text-3xl mt-4 mb-2"
+            data-aos="fade-left"
+            data-aos-duration="400"
           >
             MONDAY<br />
             FEB 8, 2021
           </div>
-          <div class="font-sans text-sm md:text-base font-medium">
+          <div
+            class="font-sans text-sm md:text-base font-medium"
+            data-aos="fade-left"
+            data-aos-duration="400"
+          >
             10:00 AM Onwards
           </div>
         </div>
       </div>
       <div class="mt-12 text-center">
-        <div class="font-medium text-sm md:text-base tracking-wider mb-4">
+        <div
+          class="font-medium text-sm md:text-base tracking-wider mb-4"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
           <span class="highlight-container">
             <span class="highlight">VENUE</span>
           </span>
         </div>
-        <div class="font-medium mb-4" translate="no">
+        <div
+          class="font-medium mb-4"
+          translate="no"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
           Kanteshir, Kesinga, Odisha, 766012
         </div>
-        <div class="max-w-3xl mx-auto">
+        <div
+          class="max-w-3xl mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
           <iframe
             class="rounded-md"
             width="100%"
@@ -104,7 +153,11 @@
       src="@/assets/images/footer-separator.svg"
       class="w-64 mx-auto mt-12"
     />
-    <div class="max-w-md flex mx-auto mt-16 px-4">
+    <div
+      class="max-w-md flex mx-auto mt-16 px-4"
+      data-aos="fade-up"
+      data-aos-duration="400"
+    >
       <div
         class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
       >
@@ -148,7 +201,12 @@
     </div>
 
     <div class="mt-16">
-      <img src="@/assets/images/footer-logo.svg" class="mx-auto w-24 md:w-32" />
+      <img
+        data-aos="fade-up"
+        data-aos-duration="400"
+        src="@/assets/images/footer-logo.svg"
+        class="mx-auto w-24 md:w-32"
+      />
     </div>
 
     <div class="bg-footer-pattern w-full h-20 footer-pattern bg-repeat-x"></div>
