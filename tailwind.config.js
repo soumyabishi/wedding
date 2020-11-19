@@ -12,9 +12,11 @@ module.exports = {
       fontFamily: {
         sans: ['IBM Plex Sans', ...defaultTheme.fontFamily.sans],
         serif: ['IBM Plex Serif'],
+        display: ['Playfair Display'],
       },
       backgroundImage: (theme) => ({
         'hero-pattern': "url('~@/assets/images/lights.png')",
+        'footer-pattern': "url('~@/assets/images/footer.png')",
       }),
     },
   },

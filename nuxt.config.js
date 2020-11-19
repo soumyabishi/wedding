@@ -38,6 +38,9 @@ export default {
       'IBM Plex Serif': {
         wght: [400, 500],
       },
+      'Playfair Display': {
+        wght: [400, 500, 600],
+      },
     },
   },
 
