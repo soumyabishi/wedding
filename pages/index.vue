@@ -4,7 +4,7 @@
     <div class="container mx-auto p-4">
       <div class="flex flex-wrap items-center max-w-5xl mx-auto mt-5 md:mt-6">
         <div class="w-full md:w-1/2 text-center">
-          <div class="text-red-700 text-xl font-medium mb-3">
+          <div class="text-red-700 text-md md:text-xl font-medium mb-3">
             SUNDAY, FEB 7, 2021
           </div>
           <svg
@@ -26,48 +26,58 @@
             />
           </svg>
 
-          <div class="text-2xl mt-8">We’re getting married!</div>
+          <div class="text-xl md:text-2xl mt-8">We’re getting married!</div>
         </div>
         <div class="w-full md:w-1/2 mt-10 md:mt-0">
           <img
             src="@/assets/images/photo.png"
-            class="w-64 md:w-auto md:max-w-xl mx-auto"
+            class="w-full md:w-auto md:max-w-xl mx-auto"
           />
         </div>
       </div>
 
-      <div class="text-center font-medium font-display text-5xl mt-16 mb-12">
+      <div
+        class="text-center font-medium font-display text-3xl md:text-5xl mt-16 mb-12"
+      >
         We invite you to <br />celebrate our wedding!
         <img src="@/assets/images/separator.svg" class="w-64 mx-auto mt-12" />
       </div>
       <div class="flex max-w-xl mx-auto">
         <div class="w-1/2 text-right pr-6 md:pr-16 border-r border-gray-400">
-          <div class="font-medium tracking-widest">
+          <div class="font-medium text-sm md:text-base tracking-widest">
             <span class="highlight-container">
               <span class="highlight">MARRIAGE</span>
             </span>
           </div>
-          <div class="font-sans text-red-700 font-semibold text-3xl mt-4 mb-2">
+          <div
+            class="font-sans text-red-700 font-semibold text-xl md:text-3xl mt-4 mb-2"
+          >
             SUNDAY<br />
             FEB 7, 2021
           </div>
-          <div class="font-sans font-medium">10:00 AM Onwards</div>
+          <div class="font-sans text-sm md:text-base font-medium">
+            10:00 AM Onwards
+          </div>
         </div>
         <div class="w-1/2 text-left pl-6 md:pl-16">
-          <div class="font-medium tracking-wider">
+          <div class="font-medium text-sm md:text-base tracking-wider">
             <span class="highlight-container">
               <span class="highlight">RECEPTION</span>
             </span>
           </div>
-          <div class="font-sans text-red-700 font-semibold text-3xl mt-4 mb-2">
+          <div
+            class="font-sans text-red-700 font-semibold text-xl md:text-3xl mt-4 mb-2"
+          >
             MONDAY<br />
             FEB 8, 2021
           </div>
-          <div class="font-sans font-medium">10:00 AM Onwards</div>
+          <div class="font-sans text-sm md:text-base font-medium">
+            10:00 AM Onwards
+          </div>
         </div>
       </div>
       <div class="mt-12 text-center">
-        <div class="font-medium tracking-wider mb-4">
+        <div class="font-medium text-sm md:text-base tracking-wider mb-4">
           <span class="highlight-container">
             <span class="highlight">VENUE</span>
           </span>
@@ -92,12 +102,12 @@
       src="@/assets/images/footer-separator.svg"
       class="w-64 mx-auto mt-12"
     />
-    <div class="max-w-md flex mx-auto mt-16">
+    <div class="max-w-md flex mx-auto mt-16 px-4">
       <div
         class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
       >
         <img
-          class="w-16 mx-auto"
+          class="w-12 md:w-16 mx-auto"
           src="https://media.giphy.com/media/QTlmH8hEoVoi83mdJC/giphy.gif"
         />
       </div>
@@ -105,7 +115,7 @@
         class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
       >
         <img
-          class="w-16 mx-auto"
+          class="w-12 md:w-16 mx-auto"
           src="https://media.giphy.com/media/ZdNlmHHr7czumQPvNE/giphy.gif"
         />
       </div>
@@ -113,7 +123,7 @@
         class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
       >
         <img
-          class="w-16 mx-auto"
+          class="w-12 md:w-16 mx-auto"
           src="https://media.giphy.com/media/PmuLLvty3SDOIaEh77/giphy.gif"
         />
       </div>
@@ -121,7 +131,7 @@
         class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
       >
         <img
-          class="w-16 mx-auto"
+          class="w-12 md:w-16 mx-auto"
           src="https://media.giphy.com/media/MAcTx2rdS1qTprIScT/giphy.gif"
         />
       </div>
@@ -129,14 +139,14 @@
         class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
       >
         <img
-          class="w-16 mx-auto"
+          class="w-12 md:w-16 mx-auto"
           src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
         />
       </div>
     </div>
 
     <div class="mt-16">
-      <img src="@/assets/images/footer-logo.svg" class="mx-auto w-32" />
+      <img src="@/assets/images/footer-logo.svg" class="mx-auto w-24 md:w-32" />
     </div>
 
     <div class="bg-footer-pattern w-full h-20 footer-pattern bg-repeat-x"></div>
@@ -162,6 +172,13 @@ export default {}
   background-repeat: repeat-x;
   background-position: center;
 }
+@media (max-width: 768px) {
+  .footer-pattern {
+    background-size: auto 250px;
+    height: 240px;
+  }
+}
+
 .highlight,
 .highlight-container {
   position: relative;
