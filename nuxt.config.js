@@ -17,6 +17,11 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [{ src: '@/plugins/aos', mode: 'client' }],
 
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'white',
+  },
   purgeCSS: {
     whitelist: [
       'aos-init',
