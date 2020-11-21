@@ -8,10 +8,31 @@ import 'aos/dist/aos.css'
 export default ({ app }) => {
   // eslint-disable-next-line new-cap
   app.AOS = new AOS.init({
-    disable: window.innerWidth < 640,
+    // disable: window.innerWidth < 640,
     // offset: 200,
     duration: 300,
     easing: 'ease',
     once: true,
   }) // or any other options you need
 }
+
+// aos.js
+// import Vue from 'vue'
+// import AOS from 'aos'
+// import 'aos/dist/aos.css'
+//
+// const aosPlugin = {
+//   install: () => {
+//     AOS.init({
+//       // disable: window.innerWidth < 640,
+//       // offset: 200,
+//       duration: 300,
+//       easing: 'ease',
+//       once: true,
+//     })
+//   },
+// }
+//
+// if (process.client) {
+//   Vue.use(aosPlugin)
+// }

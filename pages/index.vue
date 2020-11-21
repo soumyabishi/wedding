@@ -1,6 +1,10 @@
 <template>
   <div>
-    <div class="bg-hero-pattern w-full h-20 light-pattern bg-repeat-x"></div>
+    <div
+      class="bg-hero-pattern w-full h-20 light-pattern bg-repeat-x"
+      data-aos="fade-down"
+      data-aos-delay="500"
+    ></div>
     <div class="container mx-auto p-4">
       <div class="flex flex-wrap items-center max-w-5xl mx-auto mt-5 md:mt-6">
         <div class="w-full md:w-1/2 text-center">
@@ -14,8 +18,7 @@
           <svg
             data-aos="fade-up"
             data-aos-delay="500"
-            class="w-56 md:w-auto md:max-w-sm mx-auto"
-            height="h-auto"
+            class="w-56 md:w-auto md:max-w-sm mx-auto h-auto"
             viewBox="0 0 429 350"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,9 +46,10 @@
         <div class="w-full md:w-1/2 mt-10 md:mt-0">
           <img
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="600"
             src="@/assets/images/photo.jpg"
             class="w-full md:w-auto md:max-w-xl mx-auto"
+            alt="Pritesh & Ipsita"
           />
         </div>
       </div>
@@ -56,7 +60,11 @@
         data-aos-duration="400"
       >
         We invite you to <br />celebrate our wedding!
-        <img src="@/assets/images/separator.svg" class="w-64 mx-auto mt-12" />
+        <img
+          src="@/assets/images/separator.svg"
+          class="w-64 mx-auto mt-12"
+          alt="Separator"
+        />
       </div>
       <div class="flex max-w-xl mx-auto">
         <div class="w-1/2 text-right pr-6 md:pr-16 border-r border-gray-400">
@@ -139,10 +147,6 @@
             class="rounded-md"
             width="100%"
             height="400"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=20.2163428,83.2478984+(Bishi's)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
@@ -151,70 +155,207 @@
 
     <img
       src="@/assets/images/footer-separator.svg"
+      alt="Footer Separator"
       class="w-64 mx-auto mt-12"
     />
+
     <div
-      class="max-w-md flex mx-auto mt-16 px-4"
+      class="flex flex-wrap align-center justify-center mt-16 px-4"
       data-aos="fade-up"
       data-aos-duration="400"
     >
       <div
-        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        @click="updateReaction('blessed')"
       >
-        <img
-          class="w-12 md:w-16 mx-auto"
-          src="https://media.giphy.com/media/QTlmH8hEoVoi83mdJC/giphy.gif"
-        />
+        <div class="flex items-center">
+          <img
+            alt="Blessed"
+            class="w-10 md:w-12 mx-auto"
+            src="https://media.giphy.com/media/QTlmH8hEoVoi83mdJC/giphy.gif"
+          />
+          <div class="pl-2 pr-2 text-2xl">
+            {{ reactions.blessed | formatNumber }}
+          </div>
+        </div>
       </div>
       <div
-        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        @click="updateReaction('clap')"
       >
-        <img
-          class="w-12 md:w-16 mx-auto"
-          src="https://media.giphy.com/media/ZdNlmHHr7czumQPvNE/giphy.gif"
-        />
+        <div class="flex items-center">
+          <img
+            alt="Clap"
+            class="w-10 md:w-12 mx-auto"
+            src="https://media.giphy.com/media/ZdNlmHHr7czumQPvNE/giphy.gif"
+          />
+          <div class="pl-2 pr-2 text-2xl">
+            {{ reactions.clap | formatNumber }}
+          </div>
+        </div>
       </div>
       <div
-        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        @click="updateReaction('love')"
       >
-        <img
-          class="w-12 md:w-16 mx-auto"
-          src="https://media.giphy.com/media/PmuLLvty3SDOIaEh77/giphy.gif"
-        />
+        <div class="flex items-center">
+          <img
+            alt="Love"
+            class="w-10 md:w-12 mx-auto"
+            src="https://media.giphy.com/media/PmuLLvty3SDOIaEh77/giphy.gif"
+          />
+          <div class="pl-2 pr-2 text-2xl">
+            {{ reactions.love | formatNumber }}
+          </div>
+        </div>
       </div>
       <div
-        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        @click="updateReaction('superlike')"
       >
-        <img
-          class="w-12 md:w-16 mx-auto"
-          src="https://media.giphy.com/media/MAcTx2rdS1qTprIScT/giphy.gif"
-        />
+        <div class="flex items-center">
+          <img
+            alt="Superlike"
+            class="w-10 md:w-12 mx-auto"
+            src="https://media.giphy.com/media/MAcTx2rdS1qTprIScT/giphy.gif"
+          />
+          <div class="pl-2 pr-2 text-2xl">
+            {{ reactions.superlike | formatNumber }}
+          </div>
+        </div>
       </div>
       <div
-        class="w-1/5 cursor-pointer rounded-md hover:bg-white hover:shadow-md"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mb-3"
+        @click="updateReaction('cool')"
       >
-        <img
-          class="w-12 md:w-16 mx-auto"
-          src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
-        />
+        <div class="flex items-center">
+          <img
+            alt="Cool"
+            class="w-10 md:w-12 mx-auto"
+            src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
+          />
+          <div class="pl-2 pr-2 text-2xl">
+            {{ reactions.cool | formatNumber }}
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="mt-16">
       <img
+        alt="Pritesh & Ipsita"
         data-aos="fade-up"
         data-aos-duration="400"
         src="@/assets/images/footer-logo.svg"
         class="mx-auto w-24 md:w-32"
       />
     </div>
-
     <div class="bg-footer-pattern w-full h-20 footer-pattern bg-repeat-x"></div>
   </div>
 </template>
 
 <script>
-export default {}
+import AOS from 'aos'
+import { fireDb } from '@/plugins/firebase.js'
+export default {
+  filters: {
+    formatNumber(num) {
+      return Math.abs(num) > 999
+        ? Math.sign(num) * (Math.abs(num) / 1000).toFixed(1) + 'k'
+        : Math.sign(num) * Math.abs(num)
+    },
+  },
+  // async asyncData() {
+  // const posts = await fireDb
+  //   .collection('test')
+  //   .doc('test')
+  //   .onSnapshot(
+  //     (docSnapshot) => {
+  //       console.log(docSnapshot.data())
+  //       return docSnapshot.data()
+  //     },
+  //     (err) => {
+  //       console.log(`Encountered error: ${err}`)
+  //     }
+  //   )
+  // return { posts }
+  // },
+  // async fetch() {
+  //   const ref = fireDb.collection('reactions').doc('jMEAi9q7PDU7GodsMFYW')
+  //   return await new Promise((resolve) => {
+  //     ref.onSnapshot(
+  //       (docSnapshot) => {
+  //         this.reactions = docSnapshot.data()
+  //         console.log(this.reactions)
+  //         resolve(true)
+  //       },
+  //       (err) => {
+  //         // eslint-disable-next-line no-console
+  //         console.log(err)
+  //         resolve(false)
+  //       }
+  //     )
+  //   })
+  // },
+
+  // const ref = fireDb.collection('reactions').doc('jMEAi9q7PDU7GodsMFYW')
+  //
+  // ref.onSnapshot(
+  //   (docSnapshot) => {
+  //     this.reactions = docSnapshot.data()
+  //   },
+  //   (err) => {
+  //     // eslint-disable-next-line no-console
+  //     console.log(err)
+  //   }
+  // )
+
+  data() {
+    return {
+      reactions: {
+        blessed: 0,
+        clap: 0,
+        love: 0,
+        superlike: 0,
+        cool: 0,
+      },
+    }
+  },
+  mounted() {
+    this.fetchReactions()
+    // this.$nextTick(() => {
+    //   this.fetchReactions()
+    // })
+  },
+  methods: {
+    async updateReaction(name) {
+      const ref = fireDb.collection('reactions').doc('jMEAi9q7PDU7GodsMFYW')
+      const document = {
+        [name]: this.reactions[name] + 1,
+      }
+      console.log(document)
+      try {
+        await ref.update(document)
+      } catch (e) {
+        // TODO: error handling
+        console.error(e)
+      }
+    },
+    fetchReactions() {
+      const ref = fireDb.collection('reactions').doc('jMEAi9q7PDU7GodsMFYW')
+      ref.onSnapshot(
+        (docSnapshot) => {
+          this.reactions = docSnapshot.data()
+          AOS.refreshHard()
+        },
+        (err) => {
+          // eslint-disable-next-line no-console
+          console.log(err)
+        }
+      )
+    },
+  },
+}
 </script>
 
 <style lang="scss">

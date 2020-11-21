@@ -1,16 +1,22 @@
 export default {
+  ssr: false,
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'wedding',
+    title: 'Pritesh & Ipsita | We’re getting married!',
     meta: [
       { charset: 'utf-8' },
       { name: 'google', content: 'notranslate' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'We invite you to celebrate our wedding!',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  loading: '~/components/loading.vue',
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [],
 
