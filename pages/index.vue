@@ -54,18 +54,18 @@
         </div>
       </div>
 
-      <div
-        class="text-center font-medium font-display text-3xl md:text-5xl mt-10 md:mt-16 mb-12"
-        data-aos="fade-up"
-        data-aos-delay="400"
-      >
-        We invite you to <br />celebrate our wedding!
-        <img
-          src="@/assets/images/separator.svg"
-          class="w-64 mx-auto mt-12"
-          alt="Separator"
-        />
-      </div>
+      <!--      <div-->
+      <!--        class="text-center font-medium font-display text-3xl md:text-5xl mt-10 md:mt-16 mb-12"-->
+      <!--        data-aos="fade-up"-->
+      <!--        data-aos-duration="400"-->
+      <!--      >-->
+      <!--        We invite you to <br />celebrate our wedding!-->
+      <!--        <img-->
+      <!--          src="@/assets/images/separator.svg"-->
+      <!--          class="w-64 mx-auto mt-12"-->
+      <!--          alt="Separator"-->
+      <!--        />-->
+      <!--      </div>-->
       <div class="flex max-w-xl mx-auto">
         <div class="w-1/2 text-right pr-6 md:pr-16 border-r border-gray-400">
           <div

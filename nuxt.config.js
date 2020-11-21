@@ -35,7 +35,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '@/static/og-image.jpg',
+        content: '/og-image.jpg',
       },
 
       {
@@ -61,7 +61,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '@/static/og-image.jpg',
+        content: '/og-image.jpg',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
