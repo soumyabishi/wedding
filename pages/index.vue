@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <div class="flex justify-center pt-20 px-4 md:py-4 min-h-screen">
       <div
         class="bg-hero-pattern w-full h-20 light-pattern bg-repeat-x absolute top-0"
