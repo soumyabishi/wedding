@@ -10,13 +10,60 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'You are cordially invited to celebrate our marriage. Date - Sunday, Feb 7, 2021, Venue - Kanteshir, Kesinga, Odisha, 766012',
+        content: 'You are cordially invited to celebrate our marriage.',
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://wedding-invitation-feb.netlify.app/',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Pritesh & Ipsita | We’re getting married!',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'You are cordially invited to celebrate our marriage.',
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'static/og-image.jpg',
+        content:
+          'https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png',
+      },
+
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:url',
+        property: 'twitter:url',
+        content: 'https://wedding-invitation-feb.netlify.app/',
+      },
+      {
+        hid: 'twitter:title',
+        property: 'twitter:title',
+        content: 'Pritesh & Ipsita | We’re getting married!',
+      },
+      {
+        hid: 'twitter:description',
+        property: 'twitter:description',
+        content: 'You are cordially invited to celebrate our marriage.',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content:
+          'https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
