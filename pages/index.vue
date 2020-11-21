@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex justify-center p-4 min-h-screen">
+    <div class="flex justify-center pt-20 px-4 md:py-4 min-h-screen">
       <div
         class="bg-hero-pattern w-full h-20 light-pattern bg-repeat-x absolute top-0"
         data-aos="fade-down"
@@ -48,7 +48,7 @@
             data-aos="fade-up"
             data-aos-delay="600"
             src="@/assets/images/photo.jpg"
-            class="w-full md:w-auto md:max-w-xl mx-auto"
+            class="w-full mx-auto"
             alt="Pritesh & Ipsita"
           />
         </div>
@@ -57,7 +57,7 @@
 
     <div class="container mx-auto p-4">
       <div
-        class="text-center font-medium font-display text-3xl md:text-5xl mt-10 md:mt-16 mb-12"
+        class="text-center font-medium font-display text-3xl md:text-5xl mt-10 mb-12"
       >
         <div data-aos="fade-up" data-aos-duration="400">
           We invite you to <br />celebrate our wedding!
