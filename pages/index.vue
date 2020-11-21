@@ -43,7 +43,7 @@
             We’re getting married!
           </div>
         </div>
-        <div class="w-full md:w-1/2 mt-10 md:mt-0">
+        <div class="w-full md:w-1/2 mt-5 md:mt-0">
           <img
             data-aos="fade-up"
             data-aos-delay="600"
@@ -57,7 +57,7 @@
 
     <div class="container mx-auto p-4">
       <div
-        class="text-center font-medium font-display text-3xl md:text-5xl mt-10 mb-12"
+        class="text-center font-medium font-display text-3xl md:text-5xl mb-12"
       >
         <div data-aos="fade-up" data-aos-duration="400">
           We invite you to <br />celebrate our wedding!
@@ -71,7 +71,7 @@
         />
       </div>
 
-      <div class="flex max-w-xl justify-center mx-auto">
+      <div class="flex justify-center">
         <div class="text-right pr-6 md:pr-16 border-r border-gray-400">
           <div
             class="font-medium text-sm md:text-base tracking-widest"
@@ -378,8 +378,8 @@ export default {
 }
 @media (max-width: 768px) {
   .footer-pattern {
-    background-size: auto 250px;
-    height: 240px;
+    height: 250px;
+    background-size: cover;
   }
 }
 
