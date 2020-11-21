@@ -57,7 +57,7 @@
       <div
         class="text-center font-medium font-display text-3xl md:text-5xl mt-10 md:mt-16 mb-12"
         data-aos="fade-up"
-        data-aos-duration="400"
+        data-aos-delay="400"
       >
         We invite you to <br />celebrate our wedding!
         <img
