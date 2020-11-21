@@ -1,4 +1,3 @@
-import ogImage from '@/assets/images/og-image.jpg'
 export default {
   ssr: false,
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -17,7 +16,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: ogImage,
+        content: 'static/og-image.jpg',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
