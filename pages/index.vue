@@ -70,8 +70,9 @@
           alt="Separator"
         />
       </div>
-      <div class="flex max-w-xl mx-auto">
-        <div class="w-1/2 text-right pr-6 md:pr-16 border-r border-gray-400">
+
+      <div class="flex max-w-xl justify-center mx-auto">
+        <div class="text-right pr-6 md:pr-16 border-r border-gray-400">
           <div
             class="font-medium text-sm md:text-base tracking-widest"
             data-aos="fade-right"
@@ -97,7 +98,7 @@
             10:00 AM Onwards
           </div>
         </div>
-        <div class="w-1/2 text-left pl-6 md:pl-16">
+        <div class="text-left pl-6 md:pl-16">
           <div
             class="font-medium text-sm md:text-base tracking-wider"
             data-aos="fade-left"
