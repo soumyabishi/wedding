@@ -1,3 +1,4 @@
+import ogImage from '@/assets/images/og-image.jpg'
 export default {
   ssr: false,
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -12,6 +13,11 @@ export default {
         name: 'description',
         content:
           'You are cordially invited to celebrate our marriage. Date - Sunday, Feb 7, 2021, Venue - Kanteshir, Kesinga, Odisha, 766012',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: ogImage,
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -68,19 +74,7 @@ export default {
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    'nuxt-social-meta',
-    {
-      url: 'https://wedding-invitation-feb.netlify.app/',
-      title: 'Pritesh & Ipsita | We’re getting married!',
-      site_name: 'Pritesh & Ipsita',
-      description:
-        'You are cordially invited to celebrate our marriage. Date - Sunday, Feb 7, 2021, Venue - Kanteshir, Kesinga, Odisha, 766012',
-      img: '@/static/assets/images/og-image.jpg',
-      locale: 'en_US',
-      twitter_card: '@/static/assets/images/og-image.jpg',
-    },
-  ],
+  modules: [],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
