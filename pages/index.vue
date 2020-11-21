@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div
-      class="bg-hero-pattern w-full h-20 light-pattern bg-repeat-x"
-      data-aos="fade-down"
-      data-aos-delay="500"
-    ></div>
-    <div class="container mx-auto p-4">
+    <div class="flex justify-center p-4 min-h-screen">
+      <div
+        class="bg-hero-pattern w-full h-20 light-pattern bg-repeat-x absolute top-0"
+        data-aos="fade-down"
+        data-aos-delay="500"
+      ></div>
       <div class="flex flex-wrap items-center max-w-5xl mx-auto mt-5 md:mt-6">
         <div class="w-full md:w-1/2 text-center">
           <div
@@ -53,14 +53,18 @@
           />
         </div>
       </div>
+    </div>
 
+    <div class="container mx-auto p-4">
       <div
         class="text-center font-medium font-display text-3xl md:text-5xl mt-10 md:mt-16 mb-12"
-        data-aos="fade-up"
-        data-aos-duration="400"
       >
-        We invite you to <br />celebrate our wedding!
+        <div data-aos="fade-up" data-aos-duration="400">
+          We invite you to <br />celebrate our wedding!
+        </div>
         <img
+          data-aos="fade-up"
+          data-aos-duration="400"
           src="@/assets/images/separator.svg"
           class="w-64 mx-auto mt-12"
           alt="Separator"
@@ -333,12 +337,10 @@ export default {
       const document = {
         [name]: this.reactions[name] + 1,
       }
-      console.log(document)
       try {
         await ref.update(document)
       } catch (e) {
         // TODO: error handling
-        console.error(e)
       }
     },
     fetchReactions() {
