@@ -460,6 +460,15 @@
         class="mx-auto w-24 md:w-32"
       />
     </div>
+    <div class="mt-5 text-center py-4 text-sm">
+      <div>Made with love by</div>
+      <a
+        class="text-base border-b border-gray-400 inline-block hover:text-red-700 hover:border-red-700"
+        href="https://soumyabishi.design"
+        target="_blank"
+        >Soumya Ranjan Bishi</a
+      >
+    </div>
     <div class="bg-footer-pattern w-full h-20 footer-pattern bg-repeat-x"></div>
   </div>
 </template>
