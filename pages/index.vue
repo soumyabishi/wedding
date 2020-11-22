@@ -87,11 +87,12 @@
       >
         <div
           v-if="showArrow"
+          id="arrow"
           v-scroll-to="'#celebrate'"
-          class="absolute bottom-0 mb-8 hidden md:block cursor-pointer"
+          class="absolute bottom-0 mb-8 hidden md:block cursor-pointer hover:bg-red-700 border-red-700 border rounded-full p-4 transition ease-in-out duration-150"
         >
           <svg
-            class="w-6 h-6 text-red-700"
+            class="w-6 h-6 text-red-700 group-hover:text-white"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -420,7 +421,7 @@
       data-aos-duration="400"
     >
       <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
         @click="updateReaction('blessed')"
       >
         <div class="flex items-center">
@@ -435,7 +436,7 @@
         </div>
       </div>
       <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
         @click="updateReaction('clap')"
       >
         <div class="flex items-center">
@@ -450,7 +451,7 @@
         </div>
       </div>
       <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
         @click="updateReaction('love')"
       >
         <div class="flex items-center">
@@ -465,7 +466,7 @@
         </div>
       </div>
       <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
         @click="updateReaction('superlike')"
       >
         <div class="flex items-center">
@@ -480,7 +481,7 @@
         </div>
       </div>
       <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mb-3"
+        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mb-3 transition ease-in-out duration-150"
         @click="updateReaction('cool')"
       >
         <div class="flex items-center">
@@ -515,7 +516,9 @@
       >
     </div>
     <div class="flex justify-center mt-8">
-      <div class="cursor-pointer">
+      <div
+        class="cursor-pointer transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+      >
         <ShareNetwork
           network="facebook"
           url="https://wedding-invitation-feb.netlify.app/"
@@ -529,7 +532,9 @@
           />
         </ShareNetwork>
       </div>
-      <div class="cursor-pointer mx-6">
+      <div
+        class="cursor-pointer mx-6 transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+      >
         <ShareNetwork
           network="twitter"
           url="https://wedding-invitation-feb.netlify.app/"
@@ -540,7 +545,9 @@
           <img src="@/assets/images/share-on-twitter-button.svg" class="w-16" />
         </ShareNetwork>
       </div>
-      <div class="cursor-pointer">
+      <div
+        class="cursor-pointer transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+      >
         <ShareNetwork
           network="whatsapp"
           url="https://wedding-invitation-feb.netlify.app/"
@@ -639,6 +646,10 @@ export default {
     height: 250px;
     background-size: cover;
   }
+}
+
+#arrow:hover svg {
+  color: #fff;
 }
 
 .highlight,

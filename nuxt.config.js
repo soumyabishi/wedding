@@ -67,7 +67,6 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  loading: '~/components/loading.vue',
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [],
 
