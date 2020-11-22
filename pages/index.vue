@@ -64,7 +64,15 @@
             data-aos="fade-up"
             data-aos-delay="600"
             src="@/assets/images/photo.jpg"
-            class="w-full mx-auto"
+            class="w-full mx-auto hidden md:block"
+            alt="Pritesh & Ipsita"
+          />
+
+          <img
+            data-aos="fade-up"
+            data-aos-delay="100"
+            src="@/assets/images/photo.jpg"
+            class="w-full mx-auto block md:hidden"
             alt="Pritesh & Ipsita"
           />
         </div>
@@ -469,6 +477,48 @@
         >Soumya Ranjan Bishi</a
       >
     </div>
+    <div class="flex justify-center mt-8">
+      <div class="cursor-pointer">
+        <ShareNetwork
+          network="facebook"
+          url="https://wedding-invitation-feb.netlify.app/"
+          title="Pritesh & Ipsita | We’re getting married!"
+          description="You are cordially invited to celebrate our marriage."
+          hashtags="pritesh&ipsita,wedding,invitation"
+        >
+          <img
+            src="@/assets/images/share-on-facebook-button.svg"
+            class="w-16"
+          />
+        </ShareNetwork>
+      </div>
+      <div class="cursor-pointer mx-6">
+        <ShareNetwork
+          network="twitter"
+          url="https://wedding-invitation-feb.netlify.app/"
+          title="Pritesh & Ipsita | We’re getting married!"
+          description="You are cordially invited to celebrate our marriage."
+          hashtags="pritesh&ipsita,wedding,invitation"
+        >
+          <img src="@/assets/images/share-on-twitter-button.svg" class="w-16" />
+        </ShareNetwork>
+      </div>
+      <div class="cursor-pointer">
+        <ShareNetwork
+          network="whatsapp"
+          url="https://wedding-invitation-feb.netlify.app/"
+          title="Pritesh & Ipsita | We’re getting married!"
+          description="You are cordially invited to celebrate our marriage."
+          hashtags="pritesh&ipsita,wedding,invitation"
+        >
+          <img
+            src="@/assets/images/share-on-whatsapp-button.svg"
+            class="w-16"
+          />
+        </ShareNetwork>
+      </div>
+    </div>
+
     <div class="bg-footer-pattern w-full h-20 footer-pattern bg-repeat-x"></div>
   </div>
 </template>
