@@ -349,17 +349,54 @@
           </span>
         </div>
         <div
-          class="font-medium mb-4"
+          class="font-medium"
           translate="no"
           data-aos="fade-up"
           data-aos-duration="400"
         >
           Kanteshir, Kesinga, Odisha, 766012
         </div>
+        <a
+          href="https://www.google.com/maps/dir//Kanteshir+Post+Office,+Kantesir,+Odisha+766012/@20.2164661,83.2476362,20z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a2460082ce6348f:0x75659dcdd0b39fa!2m2!1d83.2480065!2d20.2162966?hl=en"
+          class="my-6 inline-block"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
+          <span class="inline-flex rounded-full shadow-sm">
+            <button
+              type="button"
+              class="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-full text-white bg-red-700 hover:bg-red-600 focus:outline-none focus:border-red-800 focus:shadow-outline-indigo active:bg-red-800 transition ease-in-out duration-150"
+            >
+              Get direction
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                fill="#fff"
+                class="ml-3 -mr-1 h-5 w-5 text-white"
+                viewBox="0 0 510 510"
+                style="enable-background: new 0 0 510 510"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="directions">
+                    <path
+                      d="M502.35,237.149l-229.5-229.5l0,0c-10.199-10.2-25.5-10.2-35.7,0l-229.5,229.5c-10.2,10.2-10.2,25.501,0,35.7l229.5,229.5
+			l0,0c10.2,10.2,25.501,10.2,35.7,0l229.5-229.5C512.55,262.65,512.55,247.35,502.35,237.149z M306,318.75V255H204v76.5h-51v-102
+			c0-15.3,10.2-25.5,25.5-25.5H306v-63.75l89.25,89.25L306,318.75z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </button>
+          </span>
+        </a>
         <div
           class="max-w-3xl mx-auto"
           data-aos="fade-up"
-          data-aos-duration="400"
+          data-aos-duration="500"
         >
           <iframe
             class="rounded-md"
