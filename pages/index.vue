@@ -484,7 +484,7 @@
           url="https://wedding-invitation-feb.netlify.app/"
           title="Pritesh & Ipsita | We’re getting married!"
           description="You are cordially invited to celebrate our marriage."
-          hashtags="pritesh&ipsita,wedding,invitation"
+          hashtags="wedding,invitation"
         >
           <img
             src="@/assets/images/share-on-facebook-button.svg"
@@ -498,7 +498,7 @@
           url="https://wedding-invitation-feb.netlify.app/"
           title="Pritesh & Ipsita | We’re getting married!"
           description="You are cordially invited to celebrate our marriage."
-          hashtags="pritesh&ipsita,wedding,invitation"
+          hashtags="wedding,invitation"
         >
           <img src="@/assets/images/share-on-twitter-button.svg" class="w-16" />
         </ShareNetwork>
@@ -509,7 +509,7 @@
           url="https://wedding-invitation-feb.netlify.app/"
           title="Pritesh & Ipsita | We’re getting married!"
           description="You are cordially invited to celebrate our marriage."
-          hashtags="pritesh&ipsita,wedding,invitation"
+          hashtags="wedding,invitation"
         >
           <img
             src="@/assets/images/share-on-whatsapp-button.svg"
