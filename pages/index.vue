@@ -418,8 +418,9 @@
         data-aos="fade-up"
         data-aos-duration="400"
       >
-        In case you are unable to attend the function, <br />you can still send
-        your blessings online
+        In case you are unable to attend the function,
+        <span class="hidden md:inline"><br /></span>you can still send your
+        blessings online
       </div>
       <div
         class="max-w-3xl rounded-md mx-auto"
