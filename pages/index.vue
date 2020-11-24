@@ -407,159 +407,176 @@
           ></iframe>
         </div>
       </div>
-    </div>
-
-    <img
-      src="@/assets/images/footer-separator.svg"
-      alt="Footer Separator"
-      class="w-64 mx-auto mt-12"
-    />
-
-    <div
-      class="flex flex-wrap align-center justify-center mt-16 px-4"
-      data-aos="fade-up"
-      data-aos-duration="400"
-    >
-      <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
-        @click="updateReaction('blessed')"
-      >
-        <div class="flex items-center">
-          <img
-            alt="Blessed"
-            class="w-10 md:w-12 mx-auto"
-            src="https://media.giphy.com/media/QTlmH8hEoVoi83mdJC/giphy.gif"
-          />
-          <div class="pl-2 pr-2 text-2xl">
-            {{ reactions.blessed | formatNumber }}
-          </div>
-        </div>
-      </div>
-      <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
-        @click="updateReaction('clap')"
-      >
-        <div class="flex items-center">
-          <img
-            alt="Clap"
-            class="w-10 md:w-12 mx-auto"
-            src="https://media.giphy.com/media/ZdNlmHHr7czumQPvNE/giphy.gif"
-          />
-          <div class="pl-2 pr-2 text-2xl">
-            {{ reactions.clap | formatNumber }}
-          </div>
-        </div>
-      </div>
-      <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
-        @click="updateReaction('love')"
-      >
-        <div class="flex items-center">
-          <img
-            alt="Love"
-            class="w-10 md:w-12 mx-auto"
-            src="https://media.giphy.com/media/PmuLLvty3SDOIaEh77/giphy.gif"
-          />
-          <div class="pl-2 pr-2 text-2xl">
-            {{ reactions.love | formatNumber }}
-          </div>
-        </div>
-      </div>
-      <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
-        @click="updateReaction('superlike')"
-      >
-        <div class="flex items-center">
-          <img
-            alt="Superlike"
-            class="w-10 md:w-12 mx-auto"
-            src="https://media.giphy.com/media/MAcTx2rdS1qTprIScT/giphy.gif"
-          />
-          <div class="pl-2 pr-2 text-2xl">
-            {{ reactions.superlike | formatNumber }}
-          </div>
-        </div>
-      </div>
-      <div
-        class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mb-3 transition ease-in-out duration-150"
-        @click="updateReaction('cool')"
-      >
-        <div class="flex items-center">
-          <img
-            alt="Cool"
-            class="w-10 md:w-12 mx-auto"
-            src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
-          />
-          <div class="pl-2 pr-2 text-2xl">
-            {{ reactions.cool | formatNumber }}
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="mt-16">
       <img
-        alt="Pritesh & Ipsita"
+        src="@/assets/images/footer-separator.svg"
+        alt="Footer Separator"
+        class="w-64 mx-auto mt-12"
+      />
+
+      <div
+        class="text-center mt-12 mb-10 font-display text-xl md:text-3xl"
         data-aos="fade-up"
         data-aos-duration="400"
-        src="@/assets/images/footer-logo.svg"
-        class="mx-auto w-24 md:w-32"
-      />
-    </div>
-    <div class="mt-5 text-center py-4 text-sm">
-      <div>Made with love by</div>
-      <a
-        class="text-base border-b border-gray-400 inline-block hover:text-red-700 hover:border-red-700"
-        href="https://soumyabishi.design"
-        target="_blank"
-        >Soumya Ranjan Bishi</a
       >
-    </div>
-    <div class="flex justify-center mt-8">
-      <div
-        class="cursor-pointer transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
-      >
-        <ShareNetwork
-          network="facebook"
-          url="https://wedding-invitation-feb.netlify.app/"
-          title="Pritesh & Ipsita | We’re getting married!"
-          description="You are cordially invited to celebrate our marriage."
-          hashtags="wedding,invitation"
-        >
-          <img
-            src="@/assets/images/share-on-facebook-button.svg"
-            class="w-16"
-          />
-        </ShareNetwork>
+        In case you are unable to attend the function, <br />you can still send
+        your blessings online
       </div>
       <div
-        class="cursor-pointer mx-6 transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+        class="max-w-3xl rounded-md mx-auto"
+        data-aos="fade-up"
+        data-aos-duration="500"
       >
-        <ShareNetwork
-          network="twitter"
-          url="https://wedding-invitation-feb.netlify.app/"
-          title="Pritesh & Ipsita | We’re getting married!"
-          description="You are cordially invited to celebrate our marriage."
-          hashtags="wedding,invitation"
-        >
-          <img src="@/assets/images/share-on-twitter-button.svg" class="w-16" />
-        </ShareNetwork>
+        <LazyYoutubeVideo src="https://www.youtube.com/embed/l866Eg72Ewk" />
       </div>
       <div
-        class="cursor-pointer transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+        class="flex flex-wrap align-center justify-center mt-16 px-4"
+        data-aos="fade-up"
+        data-aos-duration="400"
       >
-        <ShareNetwork
-          network="whatsapp"
-          url="https://wedding-invitation-feb.netlify.app/"
-          title="Pritesh & Ipsita | We’re getting married!"
-          description="You are cordially invited to celebrate our marriage."
-          hashtags="wedding,invitation"
+        <div
+          class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
+          @click="updateReaction('blessed')"
         >
-          <img
-            src="@/assets/images/share-on-whatsapp-button.svg"
-            class="w-16"
-          />
-        </ShareNetwork>
+          <div class="flex items-center">
+            <img
+              alt="Blessed"
+              class="w-10 md:w-12 mx-auto"
+              src="https://media.giphy.com/media/QTlmH8hEoVoi83mdJC/giphy.gif"
+            />
+            <div class="pl-2 pr-2 text-2xl">
+              {{ reactions.blessed | formatNumber }}
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
+          @click="updateReaction('clap')"
+        >
+          <div class="flex items-center">
+            <img
+              alt="Clap"
+              class="w-10 md:w-12 mx-auto"
+              src="https://media.giphy.com/media/ZdNlmHHr7czumQPvNE/giphy.gif"
+            />
+            <div class="pl-2 pr-2 text-2xl">
+              {{ reactions.clap | formatNumber }}
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
+          @click="updateReaction('love')"
+        >
+          <div class="flex items-center">
+            <img
+              alt="Love"
+              class="w-10 md:w-12 mx-auto"
+              src="https://media.giphy.com/media/PmuLLvty3SDOIaEh77/giphy.gif"
+            />
+            <div class="pl-2 pr-2 text-2xl">
+              {{ reactions.love | formatNumber }}
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mr-3 mb-3 transition ease-in-out duration-150"
+          @click="updateReaction('superlike')"
+        >
+          <div class="flex items-center">
+            <img
+              alt="Superlike"
+              class="w-10 md:w-12 mx-auto"
+              src="https://media.giphy.com/media/MAcTx2rdS1qTprIScT/giphy.gif"
+            />
+            <div class="pl-2 pr-2 text-2xl">
+              {{ reactions.superlike | formatNumber }}
+            </div>
+          </div>
+        </div>
+        <div
+          class="select-none cursor-pointer rounded-full border border-gray-400 hover:border-blue-500 hover:bg-blue-200 px-4 py-2 mb-3 transition ease-in-out duration-150"
+          @click="updateReaction('cool')"
+        >
+          <div class="flex items-center">
+            <img
+              alt="Cool"
+              class="w-10 md:w-12 mx-auto"
+              src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
+            />
+            <div class="pl-2 pr-2 text-2xl">
+              {{ reactions.cool | formatNumber }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-16">
+        <img
+          alt="Pritesh & Ipsita"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          src="@/assets/images/footer-logo.svg"
+          class="mx-auto w-24 md:w-32"
+        />
+      </div>
+      <div class="mt-5 text-center py-4 text-sm">
+        <div>Made with love by</div>
+        <a
+          class="text-base border-b border-gray-400 inline-block hover:text-red-700 hover:border-red-700"
+          href="https://soumyabishi.design"
+          target="_blank"
+          >Soumya Ranjan Bishi</a
+        >
+      </div>
+      <div class="flex justify-center mt-8">
+        <div
+          class="cursor-pointer transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+        >
+          <ShareNetwork
+            network="facebook"
+            url="https://wedding-invitation-feb.netlify.app/"
+            title="Pritesh & Ipsita | We’re getting married!"
+            description="You are cordially invited to celebrate our marriage."
+            hashtags="wedding,invitation"
+          >
+            <img
+              src="@/assets/images/share-on-facebook-button.svg"
+              class="w-16"
+            />
+          </ShareNetwork>
+        </div>
+        <div
+          class="cursor-pointer mx-6 transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+        >
+          <ShareNetwork
+            network="twitter"
+            url="https://wedding-invitation-feb.netlify.app/"
+            title="Pritesh & Ipsita | We’re getting married!"
+            description="You are cordially invited to celebrate our marriage."
+            hashtags="wedding,invitation"
+          >
+            <img
+              src="@/assets/images/share-on-twitter-button.svg"
+              class="w-16"
+            />
+          </ShareNetwork>
+        </div>
+        <div
+          class="cursor-pointer transform translate-y-0 hover:-translate-y-1 transition-all ease-in-out duration-150"
+        >
+          <ShareNetwork
+            network="whatsapp"
+            url="https://wedding-invitation-feb.netlify.app/"
+            title="Pritesh & Ipsita | We’re getting married!"
+            description="You are cordially invited to celebrate our marriage."
+            hashtags="wedding,invitation"
+          >
+            <img
+              src="@/assets/images/share-on-whatsapp-button.svg"
+              class="w-16"
+            />
+          </ShareNetwork>
+        </div>
       </div>
     </div>
 
@@ -1056,5 +1073,10 @@ export default {
     opacity: 0;
     transform: translate(-10px, -23px) scale(0.5) rotate(230deg);
   }
+}
+
+.y-video,
+.y-video__media--type--img {
+  border-radius: 0.375rem;
 }
 </style>

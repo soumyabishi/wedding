@@ -16,6 +16,7 @@
     "core-js": "^3.6.5",
     "firebase": "^8.1.1",
     "nuxt": "^2.14.6",
+    "vue-lazy-youtube-video": "^2.3.0",
     "vue-scrollto": "^2.20.0",
     "vue-social-sharing": "^3.0.3"
   },
