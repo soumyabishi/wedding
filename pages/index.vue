@@ -442,7 +442,7 @@
             <img
               alt="Blessed"
               class="w-10 md:w-12 mx-auto"
-              src="https://media.giphy.com/media/QTlmH8hEoVoi83mdJC/giphy.gif"
+              src="@/assets/gif/blessed.gif"
             />
             <div class="pl-2 pr-2 text-2xl">
               {{ reactions.blessed | formatNumber }}
@@ -457,7 +457,7 @@
             <img
               alt="Clap"
               class="w-10 md:w-12 mx-auto"
-              src="https://media.giphy.com/media/ZdNlmHHr7czumQPvNE/giphy.gif"
+              src="@/assets/gif/clap.gif"
             />
             <div class="pl-2 pr-2 text-2xl">
               {{ reactions.clap | formatNumber }}
@@ -472,7 +472,7 @@
             <img
               alt="Love"
               class="w-10 md:w-12 mx-auto"
-              src="https://media.giphy.com/media/PmuLLvty3SDOIaEh77/giphy.gif"
+              src="@/assets/gif/love.gif"
             />
             <div class="pl-2 pr-2 text-2xl">
               {{ reactions.love | formatNumber }}
@@ -487,7 +487,7 @@
             <img
               alt="Superlike"
               class="w-10 md:w-12 mx-auto"
-              src="https://media.giphy.com/media/MAcTx2rdS1qTprIScT/giphy.gif"
+              src="@/assets/gif/superlike.gif"
             />
             <div class="pl-2 pr-2 text-2xl">
               {{ reactions.superlike | formatNumber }}
@@ -502,7 +502,7 @@
             <img
               alt="Cool"
               class="w-10 md:w-12 mx-auto"
-              src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
+              src="@/assets/gif/cool.gif"
             />
             <div class="pl-2 pr-2 text-2xl">
               {{ reactions.cool | formatNumber }}
