@@ -11,7 +11,8 @@
 2. [Firebase](https://firebase.google.com/)
 
 ## Deployment
-1. [Netlify](https://netlify.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12d91eea-eb1a-4202-aadb-9dbb7fc9227a/deploy-status)](https://app.netlify.com/sites/wedding-invitation-feb/deploys)
+
 
 
 ## Build Setup
