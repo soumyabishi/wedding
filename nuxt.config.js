@@ -20,7 +20,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://wedding-invitation-feb.netlify.app/',
+        content: 'https://pritesh-ipsita.co/',
       },
       {
         hid: 'og:title',
@@ -46,7 +46,7 @@ export default {
       {
         hid: 'twitter:url',
         property: 'twitter:url',
-        content: 'https://wedding-invitation-feb.netlify.app/',
+        content: 'https://pritesh-ipsita.co/',
       },
       {
         hid: 'twitter:title',

@@ -535,7 +535,7 @@
         >
           <ShareNetwork
             network="facebook"
-            url="https://wedding-invitation-feb.netlify.app/"
+            url="https://pritesh-ipsita.co/"
             title="Pritesh & Ipsita | We’re getting married!"
             description="You are cordially invited to celebrate our marriage."
             hashtags="wedding,invitation"
@@ -551,7 +551,7 @@
         >
           <ShareNetwork
             network="twitter"
-            url="https://wedding-invitation-feb.netlify.app/"
+            url="https://pritesh-ipsita.co/"
             title="Pritesh & Ipsita | We’re getting married!"
             description="You are cordially invited to celebrate our marriage."
             hashtags="wedding,invitation"
@@ -567,7 +567,7 @@
         >
           <ShareNetwork
             network="whatsapp"
-            url="https://wedding-invitation-feb.netlify.app/"
+            url="https://pritesh-ipsita.co/"
             title="Pritesh & Ipsita | We’re getting married!"
             description="You are cordially invited to celebrate our marriage."
             hashtags="wedding,invitation"
