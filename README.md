@@ -1,7 +1,7 @@
 # Wedding invitation
 > Beautifully designed one pager website for Pritesh & Ipsita’s wedding. The website is powered by [Nuxt JS](https://nuxtjs.org/).
 
-[View it live](https://pritesh-ipsita.co/).
+[See it live](https://pritesh-ipsita.co/).
 
 ![Pritesh & Ipsita](https://pritesh-ipsita.co/og-image.jpg "Pritesh & Ipsita")
 
@@ -37,6 +37,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 
 ## Acknowledgements
+* [Tailwind CSS](https://tailwindcss.com/)
 * [AOS - Animate on scroll library](https://github.com/michalsnik/aos)
 * [Lazyloading YouTube videos](https://github.com/andrewvasilchuk/vue-lazy-youtube-video)
 * [Vue-scroll-to](https://github.com/rigor789/vue-scrollto)
