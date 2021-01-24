@@ -346,7 +346,7 @@
           data-aos-duration="400"
         >
           <span class="highlight-container">
-            <span class="highlight">VENUE</span>
+            <span class="highlight">RECEPTION VENUE</span>
           </span>
         </div>
         <div
@@ -617,7 +617,7 @@ export default {
   },
   methods: {
     async updateReaction(name) {
-      const ref = fireDb.collection('reactions').doc('jMEAi9q7PDU7GodsMFYW')
+      const ref = fireDb.collection('reactions').doc('4zLI8Lv8Z25nCrstVbQQ')
       const document = {
         [name]: this.reactions[name] + 1,
       }
@@ -628,7 +628,7 @@ export default {
       }
     },
     fetchReactions() {
-      const ref = fireDb.collection('reactions').doc('jMEAi9q7PDU7GodsMFYW')
+      const ref = fireDb.collection('reactions').doc('4zLI8Lv8Z25nCrstVbQQ')
       ref.onSnapshot(
         (docSnapshot) => {
           this.reactions = docSnapshot.data()
